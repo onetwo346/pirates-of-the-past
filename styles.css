@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    touch-action: none; /* Prevents default touch behavior */
+    touch-action: none;
 }
 #gameCanvas {
     width: 100vw;
@@ -20,7 +20,7 @@ body {
 #joystickRight {
     right: 20px;
 }
-@media (min-width: 768px) { /* Hide joysticks on laptop */
+@media (min-width: 768px) {
     .joystick {
         display: none;
     }
